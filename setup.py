@@ -77,10 +77,11 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Operating System :: Unix',
         'Operating System :: MacOS'
     ],
-    python_requires='>=3.7, <3.11',
+    python_requires='>=3.7, <3.13',
     keywords=['simulator quantum circuits', 'quantum computing'],
     packages=find_packages(exclude=['docs', 'tests']),
     install_requires=install_requires,
